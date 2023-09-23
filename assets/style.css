@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #424530;
+    font-family: 'Mali', cursive;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 18vh;
+  }
+  
+  .logo {
+    border-radius: 100%;
+    width: 8vw;
+  }
+  
+  header ul {
+    color: #E09232;
+    list-style: none;
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .signUp{
+    background-color: #FEF9EA;
+    color: #AB8262;
+    border: none;
+    border-radius: 17px;
+    padding: 12px;
+    width: 18vw;
+    font-size: 24px;
+    font-family: 'Kite One', sans-serif;
+    cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAf4AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAf4AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AgIC/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP/////////////////////////////////////////////////9/f7//////////////////////////////////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/////////////////////////////////mpvz/5qb8/+am/P/////////////////////////////////mpvz/5qb8//t7vv/////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP///////////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8//+/v7///////////////////////////8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA////////////////////////////mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD///////////////////////////+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP///////////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/////////////////////////////////AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAQEB/gAAAP8AAAD//////////////////////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz////////////////////////////////////////////AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA//////////////////////+am/P//////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/////////////////mpvz/5qb8///////////////////////AAAA/wAAAP8AAAAAAAAA/wAAAP////////////////+ZmvP/mpvz/5qb8/+am/P/////////////////mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/////////////////+Tl/P+am/P/mpvz/5qb8///////////////////////AAAA/wAAAP8AAAD/AAAA/////////////////5qb8/+am/P/mpvz/5qb8/////////////////+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/////////////////mpvz/5qb8/+am/P/mpvz/5qb8/////////////////8AAAD/AAAA/wAAAP8AAAD////////////+/v7/mpvz/5qb8/+am/P/mpvz//////////////////////+am/P/mpvz/5qb8/+am/P/mpvz/5qb8///////////////////////mpvz/5qb8/+am/P/mpvz/////////////////wAAAP8AAAD/AAAA/wAAAP///////////5qc8/+am/P/mpvz/5qb8/+kpvT///////////////////////////+am/P/mpvz/5qb8/+am/P///////////////////////////+am/P/mpvz/5qb8/+am/P/////////////////AAAA/wAAAP8AAAD/AAAA/////////////////5qb8/+am/P/mpvz//////////////////////////////////////////////////////////////////////////////////////+am/P/mpvz/5qb8/////////////////8AAAD/AAAA/wAAAP8AAAD/////////////////////////////////////////////////mpvz/5qb8/+am/P//////////////////////5qb8/+am/P/kpPy/////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAP8AAAD//////////////////////////////////////5qb8/+am/P/mpvz/5qb8/////////////////+am/P/mpvz/5qb8/+am/P///////////////////////////////////////////8AAAD/AAAA/wAAAAAAAAAAAAAA/wAAAP8AAAD/////////////////////////////////mpvz/5qb8/+am/P/mpvz/////////////////5qb8/+am/P/mpvz/5qb8/+govT/////////////////////////////////AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP////////////////+am/P/mpvz/5qb8/+am/P/////////////////mJnz/5qb8/+am/P/mpvz/5qb8/////////////////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////5qb8/+am/P/mpvz/5qb8///////////////////////mpvz/5qb8/+am/P//////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//////////////////////5qb8/+am/P/////////////////////////////////mpvz/5qb8///////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOTUmaQAAAP////////////////////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP//////////////////////////////////////////////////////////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP///////////////////////////11dXv8AAAD/AAAA/////////////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////wDwD/wAAAP4AAAB+AAAAfAAAADwAAAA8AAAAPAAAADwAAAA+AAAAfAAAADgAAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAP4AAAf+AAAH/wAAD/8AAA//AAAP/4AAH//g8H///////////8='), auto;
+  }
+  
+  .signUp:hover {
+    background: #E09232;
+    color: #424530;
+  }
+  
+  .imagemMobile {
+    display: none;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+  
+  }
+
+  .texto{
+    display: none;
+  }
+  
+  .btn{
+    display: none;
+  }
+
+  main img {
+    width: 90vw;
+    height: 70vh;
+    border-radius: 33px;
+  }
+  
+  footer {
+    background: #A68E74;
+    height: 14vh;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #424530;
+    font-size: 28px;
+    height: 14vh;
+    list-style: none;
+  }
+  
+  footer li {
+    cursor: pointer;
+  }
+  
+   @media (max-width: 1200px){
+      header ul{
+        width: 55vw;
+      }
+   }
+
+  @media (max-width: 820px) {
+    .imagemWeb {
+      display: none;
+    }
+  
+    .imagemMobile {
+      display: flex;
+      height: 40vh;
+    }
+
+    .logo, .mobile{
+      width: 20vw;
+    }
+     header{
+      justify-content: space-between;
+      margin: 0 20px;
+     }
+
+    header nav {
+      display: none;
+    }
+ 
+  
+    header button {
+      display: none;
+    }
+  
+    .mobile {
+      display: flex;
+
+    }
+
+    .texto{
+      display: flex;
+      color: #FFFFFF;
+      padding: 0 20px;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    main{
+      flex-direction: column;
+      justify-content: space-around;
+      height: 85vh;
+      line-height: 30px;
+    }
+
+    .btn{
+      display: flex;
+      justify-content: center;
+      width: 60vw;
+      text-align: center;
+    }
+    footer ul{
+      font-size: 18px;
+    }
+
+  }
