@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #FEF9EA;
+}
+
+input{
+    display: block;
+    width: 30vw;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder{
+    color: #FEF9EA;
+    font-size: 20px;
+}
+
+a{
+    color: #E09232;
+    text-align: left;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section{
+    text-align: center;
+}
+
+.text{
+    background-color: #424530;
+    color: #FEF9EA;
+}
+
+.btnForm{
+    background-color: #E09232;
+    color: #FEF9EA;
+    font-size: 20px;
+    cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAf4AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAf4AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AgIC/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP/////////////////////////////////////////////////9/f7//////////////////////////////////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/////////////////////////////////mpvz/5qb8/+am/P/////////////////////////////////mpvz/5qb8//t7vv/////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP///////////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8//+/v7///////////////////////////8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA////////////////////////////mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD///////////////////////////+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP///////////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/////////////////////////////////AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAQEB/gAAAP8AAAD//////////////////////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz////////////////////////////////////////////AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA//////////////////////+am/P//////////////////////5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/////////////////mpvz/5qb8///////////////////////AAAA/wAAAP8AAAAAAAAA/wAAAP////////////////+ZmvP/mpvz/5qb8/+am/P/////////////////mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/mpvz/////////////////+Tl/P+am/P/mpvz/5qb8///////////////////////AAAA/wAAAP8AAAD/AAAA/////////////////5qb8/+am/P/mpvz/5qb8/////////////////+am/P/mpvz/5qb8/+am/P/mpvz/5qb8/+am/P/////////////////mpvz/5qb8/+am/P/mpvz/5qb8/////////////////8AAAD/AAAA/wAAAP8AAAD////////////+/v7/mpvz/5qb8/+am/P/mpvz//////////////////////+am/P/mpvz/5qb8/+am/P/mpvz/5qb8///////////////////////mpvz/5qb8/+am/P/mpvz/////////////////wAAAP8AAAD/AAAA/wAAAP///////////5qc8/+am/P/mpvz/5qb8/+kpvT///////////////////////////+am/P/mpvz/5qb8/+am/P///////////////////////////+am/P/mpvz/5qb8/+am/P/////////////////AAAA/wAAAP8AAAD/AAAA/////////////////5qb8/+am/P/mpvz//////////////////////////////////////////////////////////////////////////////////////+am/P/mpvz/5qb8/////////////////8AAAD/AAAA/wAAAP8AAAD/////////////////////////////////////////////////mpvz/5qb8/+am/P//////////////////////5qb8/+am/P/kpPy/////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAP8AAAD//////////////////////////////////////5qb8/+am/P/mpvz/5qb8/////////////////+am/P/mpvz/5qb8/+am/P///////////////////////////////////////////8AAAD/AAAA/wAAAAAAAAAAAAAA/wAAAP8AAAD/////////////////////////////////mpvz/5qb8/+am/P/mpvz/////////////////5qb8/+am/P/mpvz/5qb8/+govT/////////////////////////////////AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP////////////////+am/P/mpvz/5qb8/+am/P/////////////////mJnz/5qb8/+am/P/mpvz/5qb8/////////////////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////5qb8/+am/P/mpvz/5qb8///////////////////////mpvz/5qb8/+am/P//////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD//////////////////////5qb8/+am/P/////////////////////////////////mpvz/5qb8///////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOTUmaQAAAP////////////////////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP//////////////////////////////////////////////////////////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP///////////////////////////11dXv8AAAD/AAAA/////////////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////wDwD/wAAAP4AAAB+AAAAfAAAADwAAAA8AAAAPAAAADwAAAA+AAAAfAAAADgAAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAP4AAAf+AAAH/wAAD/8AAA//AAAP/4AAH//g8H///////////8='), auto;
+}
+
+@media (max-width:900px){
+    input{
+        width: 70vw;
+    }
+}
+
+@media (max-width:600px){
+    input{
+        width: 90vw;
+    }
+}
