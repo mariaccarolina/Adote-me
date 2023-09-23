@@ -62,6 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 82vh;
   
   }
@@ -173,7 +174,10 @@
       height: 85vh;
       line-height: 30px;
     }
-
+     
+    .btnDog{
+      display: none;
+    }
     .btn{
       display: flex;
       justify-content: center;
