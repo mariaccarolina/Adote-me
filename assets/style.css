@@ -66,9 +66,9 @@
     height: 82vh;
   
   }
-  .btnDog{
+  .btnMain{
     position: relative;
-    left: 350px;
+    left: 370px;
     bottom: 120px;
     opacity: 0.3;
     color: #f08707;
@@ -81,7 +81,7 @@
     cursor: pointer;
   }
 
-  .btnDog:hover{
+  .btnMain:hover{
     background-color: #f08707;
     color: white;
   }
@@ -175,7 +175,7 @@
       line-height: 30px;
     }
      
-    .btnDog{
+    .btnMain{
       display: none;
     }
     .btn{
